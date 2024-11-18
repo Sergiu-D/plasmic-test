@@ -1,0 +1,583 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+      "projectApiToken": "zkz5UOd2lLxRbMk3NhiTQSQb0Q9UjgODfu7yBoNKu65SG0xotesJ8tvvvjGs1kQtPZ3numAowvkqAKW1mIQ",
+      "projectName": "Agency Website",
+      "version": "latest",
+      "cssFilePath": "plasmic/agency_website/plasmic.module.css",
+      "components": [
+        {
+          "id": "xebX2QI6jmIq",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicHome.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "NjqIRJcP1PtR",
+          "name": "AboutUs",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicAboutUs.jsx",
+          "importSpec": {
+            "modulePath": "../pages/about-us.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicAboutUs.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/about-us"
+        },
+        {
+          "id": "hl1a0oV_dA0U",
+          "name": "HomeFooterTop",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicHomeFooterTop.jsx",
+          "importSpec": {
+            "modulePath": "HomeFooterTop.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicHomeFooterTop.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CDGk2Wk5NWDU",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "RUZiTDz2Bsdr",
+          "name": "BderWhite",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicBderWhite.jsx",
+          "importSpec": {
+            "modulePath": "BderWhite.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicBderWhite.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "51o3qbKtlL1c",
+          "name": "SocialIcons",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicSocialIcons.jsx",
+          "importSpec": {
+            "modulePath": "SocialIcons.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicSocialIcons.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "BBeltRLt0kLU",
+          "name": "BlueBdr",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicBlueBdr.jsx",
+          "importSpec": {
+            "modulePath": "BlueBdr.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicBlueBdr.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "G9nam33XXdQ1",
+          "name": "Services",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicServices.jsx",
+          "importSpec": {
+            "modulePath": "../pages/services.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicServices.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/services"
+        },
+        {
+          "id": "32KigjMGo07r",
+          "name": "Clients",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicClients.jsx",
+          "importSpec": {
+            "modulePath": "../pages/client.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicClients.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/client"
+        },
+        {
+          "id": "IOVNVkWQtD_R",
+          "name": "ContactUs",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicContactUs.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicContactUs.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/contact"
+        },
+        {
+          "id": "7APLLFjPEFPA",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "o3OmhqmRx_2W",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicHeader.jsx",
+          "importSpec": {
+            "modulePath": "Header.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tesvkPR1z3Cj",
+          "name": "FooterMain",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicFooterMain.jsx",
+          "importSpec": {
+            "modulePath": "FooterMain.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicFooterMain.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ItKVUfSkOclq",
+          "name": "PersonCard",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicPersonCard.jsx",
+          "importSpec": {
+            "modulePath": "PersonCard.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicPersonCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0YsWAKzXDvYV",
+          "name": "ServiceValue",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicServiceValue.jsx",
+          "importSpec": {
+            "modulePath": "ServiceValue.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicServiceValue.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qhcrGo5R4WZi",
+          "name": "Client",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicClient.jsx",
+          "importSpec": {
+            "modulePath": "Client.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicClient.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "mnA1CLTURO1Q",
+          "name": "ServiceWhite",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicServiceWhite.jsx",
+          "importSpec": {
+            "modulePath": "ServiceWhite.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicServiceWhite.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "z6bWt1eCFibA",
+          "name": "ServiceDark",
+          "type": "managed",
+          "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+          "renderModuleFilePath": "plasmic/agency_website/PlasmicServiceDark.jsx",
+          "importSpec": {
+            "modulePath": "ServiceDark.jsx"
+          },
+          "cssFilePath": "plasmic/agency_website/PlasmicServiceDark.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "rIX1VUtadyLs",
+          "name": "Icon29Icon",
+          "moduleFilePath": "plasmic/agency_website/icons/PlasmicIcon__Icon29.jsx"
+        },
+        {
+          "id": "kx96ipEbUY1g",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/agency_website/icons/PlasmicIcon__CheckSvg.jsx"
+        },
+        {
+          "id": "cw4HaYxJKCn-",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/agency_website/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "4C-NzeKVD03y",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/agency_website/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "JBxZWApFhBC3",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/agency_website/icons/PlasmicIcon__Icon3.jsx"
+        },
+        {
+          "id": "XOhSW-SUP7p_",
+          "name": "SearchSvgIcon",
+          "moduleFilePath": "plasmic/agency_website/icons/PlasmicIcon__SearchSvg.jsx"
+        },
+        {
+          "id": "EAKgMlwZYvtS",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/agency_website/icons/PlasmicIcon__Icon4.jsx"
+        },
+        {
+          "id": "NNIruT911j4n",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/agency_website/icons/PlasmicIcon__Icon5.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "VwEu00ortIuf",
+          "name": "logo.svg",
+          "filePath": "../public/plasmic/agency_website/images/logoSvg.svg"
+        },
+        {
+          "id": "BuNsCFcxSHkl",
+          "name": "Header-bg-6.jpg",
+          "filePath": "../public/plasmic/agency_website/images/headerBg6Jpg.jpg"
+        },
+        {
+          "id": "cFXeIfO8L9ku",
+          "name": "img-collage.png",
+          "filePath": "../public/plasmic/agency_website/images/imgCollagePng.png"
+        },
+        {
+          "id": "q9kXBpY4ToJU",
+          "name": "person-1.jpg",
+          "filePath": "../public/plasmic/agency_website/images/person1Jpg.jpg"
+        },
+        {
+          "id": "KKNqnDOtaEVj",
+          "name": "person-2.jpg",
+          "filePath": "../public/plasmic/agency_website/images/person2Jpg.jpg"
+        },
+        {
+          "id": "hOzeog9SG94l",
+          "name": "person-3.jpg",
+          "filePath": "../public/plasmic/agency_website/images/person3Jpg.jpg"
+        },
+        {
+          "id": "OgR8ZZwfzp_t",
+          "name": "you-x-ventures-Oalh2MojUuk-unsplash.jpg",
+          "filePath": "../public/plasmic/agency_website/images/youXVenturesOalh2MojUukUnsplashJpg.jpg"
+        },
+        {
+          "id": "yREocSlUIOfA",
+          "name": "Header-bg-5.jpg",
+          "filePath": "../public/plasmic/agency_website/images/headerBg5Jpg.jpg"
+        },
+        {
+          "id": "ws0YejdJbIuV",
+          "name": "team-6.jpg",
+          "filePath": "../public/plasmic/agency_website/images/team6Jpg.jpg"
+        },
+        {
+          "id": "yJpX5SUHwEA1",
+          "name": "team-3.jpg",
+          "filePath": "../public/plasmic/agency_website/images/team3Jpg.jpg"
+        },
+        {
+          "id": "YBRs0fIvEfYx",
+          "name": "team-2.jpg",
+          "filePath": "../public/plasmic/agency_website/images/team2Jpg.jpg"
+        },
+        {
+          "id": "c_qBQJNPJN2Q",
+          "name": "team-8.jpg",
+          "filePath": "../public/plasmic/agency_website/images/team8Jpg.jpg"
+        },
+        {
+          "id": "LSYn0YOWSwVO",
+          "name": "team-9.jpg",
+          "filePath": "../public/plasmic/agency_website/images/team9Jpg.jpg"
+        },
+        {
+          "id": "yBlCCLAIAkQ5",
+          "name": "bg-hero.jpg",
+          "filePath": "../public/plasmic/agency_website/images/bgHeroJpg.jpg"
+        },
+        {
+          "id": "A4SBlFgYXsJw",
+          "name": "Header-bg-3.jpg",
+          "filePath": "../public/plasmic/agency_website/images/headerBg3Jpg.jpg"
+        },
+        {
+          "id": "k_n3NBOCv2Ri",
+          "name": "Header-bg-1.jpg",
+          "filePath": "../public/plasmic/agency_website/images/headerBg1Jpg.jpg"
+        },
+        {
+          "id": "5GgeVUzyXR3a",
+          "name": "Header-bg-4.jpg",
+          "filePath": "../public/plasmic/agency_website/images/headerBg4Jpg.jpg"
+        },
+        {
+          "id": "0gT0Kj3ti9ly",
+          "name": "Header-bg-6 (1).jpg",
+          "filePath": "../public/plasmic/agency_website/images/headerBg61Jpg.jpg"
+        },
+        {
+          "id": "UA0rRTTSgzo9",
+          "name": "you-x-ventures-Oalh2MojUuk-unsplash (1).jpg",
+          "filePath": "../public/plasmic/agency_website/images/youXVenturesOalh2MojUukUnsplash1Jpg.jpg"
+        },
+        {
+          "id": "D8zEXp2wKVgN",
+          "name": "airbnb.svg",
+          "filePath": "../public/plasmic/agency_website/images/airbnbSvg.svg"
+        },
+        {
+          "id": "LG-NiaL-wa8d",
+          "name": "asana.svg",
+          "filePath": "../public/plasmic/agency_website/images/asanaSvg.svg"
+        },
+        {
+          "id": "mXNVO9D0qPmW",
+          "name": "disney.svg",
+          "filePath": "../public/plasmic/agency_website/images/disneySvg.svg"
+        },
+        {
+          "id": "bQ-exiaDogKJ",
+          "name": "instacart.svg",
+          "filePath": "../public/plasmic/agency_website/images/instacartSvg.svg"
+        },
+        {
+          "id": "LL-zdD4o2Hxl",
+          "name": "team-2.jpg 2",
+          "filePath": "../public/plasmic/agency_website/images/team2Jpg2.jpg"
+        },
+        {
+          "id": "cUX2yrNMue_6",
+          "name": "team-8.jpg 2",
+          "filePath": "../public/plasmic/agency_website/images/team8Jpg2.jpg"
+        },
+        {
+          "id": "FVYaJqk0bHbt",
+          "name": "team-9.jpg 2",
+          "filePath": "../public/plasmic/agency_website/images/team9Jpg2.jpg"
+        },
+        {
+          "id": "L7j5mgwrmNps",
+          "name": "you-x-ventures-Oalh2MojUuk-unsplash (1).jpg 2",
+          "filePath": "../public/plasmic/agency_website/images/youXVenturesOalh2MojUukUnsplash1Jpg2.jpg"
+        },
+        {
+          "id": "FWM0QOb-hgLy",
+          "name": "pexels-sora-shimazaki-5668437.jpg",
+          "filePath": "../public/plasmic/agency_website/images/pexelsSoraShimazaki5668437Jpg.jpg"
+        },
+        {
+          "id": "VjsXK-o1E7DD",
+          "name": "austin-distel-wD1LRb9OeEo-unsplash.jpg",
+          "filePath": "../public/plasmic/agency_website/images/austinDistelWD1LRb9OeEoUnsplashJpg.jpg"
+        },
+        {
+          "id": "29-xkAJq-diP",
+          "name": "hand-g176868e99_1920.jpg",
+          "filePath": "../public/plasmic/agency_website/images/handG176868E991920Jpg.jpg"
+        },
+        {
+          "id": "gpmDin11A3k3",
+          "name": "images.jpg",
+          "filePath": "../public/plasmic/agency_website/images/imagesJpg.jpg"
+        },
+        {
+          "id": "Cq8NN9I3MWkX",
+          "name": "unnamed.jpg",
+          "filePath": "../public/plasmic/agency_website/images/unnamedJpg.jpg"
+        },
+        {
+          "id": "3SJ3Ui8p8qa3",
+          "name": "images (1).jpg",
+          "filePath": "../public/plasmic/agency_website/images/images1Jpg.jpg"
+        },
+        {
+          "id": "Ihz4i0kaTEWq",
+          "name": "team_2.jpg 3",
+          "filePath": "../public/plasmic/agency_website/images/team2Jpg3.jpg"
+        },
+        {
+          "id": "im8DjSBe6zlJ",
+          "name": "tm1.jpg",
+          "filePath": "../public/plasmic/agency_website/images/tm1Jpg.jpg"
+        },
+        {
+          "id": "c68nlXsgHAF5",
+          "name": "team_4.jpg",
+          "filePath": "../public/plasmic/agency_website/images/team4Jpg.jpg"
+        },
+        {
+          "id": "mbhodNNIVB25",
+          "name": "avatar-3.png",
+          "filePath": "../public/plasmic/agency_website/images/avatar3Png.png"
+        },
+        {
+          "id": "7YC834Amo3Ga",
+          "name": "linkedin-sales-solutions-46bom4lObsA-unsplash.jpg",
+          "filePath": "../public/plasmic/agency_website/images/linkedinSalesSolutions46Bom4LObsAUnsplashJpg.jpg"
+        },
+        {
+          "id": "ej9bnhVkrqSa",
+          "name": "linkedin-sales-solutions-qbDiSp5IqxA-unsplash.jpg",
+          "filePath": "../public/plasmic/agency_website/images/linkedinSalesSolutionsQbDiSp5IqxAUnsplashJpg.jpg"
+        },
+        {
+          "id": "hhMHy-yu_gNs",
+          "name": "christina-wocintechchat-com-faEfWCdOKIg-unsplash.jpg",
+          "filePath": "../public/plasmic/agency_website/images/christinaWocintechchatComFaEfWCdOkIgUnsplashJpg.jpg"
+        },
+        {
+          "id": "kuHr58zkpuRC",
+          "name": "brooke-cagle--uHVRvDr7pg-unsplash.jpg",
+          "filePath": "../public/plasmic/agency_website/images/brookeCagleUHvRvDr7PgUnsplashJpg.jpg"
+        },
+        {
+          "id": "pScf7JP8D7Uk",
+          "name": "van-tay-media-Tv2AtkG_ilM-unsplash.jpg",
+          "filePath": "../public/plasmic/agency_website/images/vanTayMediaTv2AtkGIlMUnsplashJpg.jpg"
+        },
+        {
+          "id": "Ag-m6VwWFq0_",
+          "name": "pexels-andrea-piacquadio-789822.jpg",
+          "filePath": "../public/plasmic/agency_website/images/pexelsAndreaPiacquadio789822Jpg.jpg"
+        },
+        {
+          "id": "xkOs3VaDZfp0",
+          "name": "writing-pad-3202747_1920.jpg",
+          "filePath": "../public/plasmic/agency_website/images/writingPad32027471920Jpg.jpg"
+        },
+        {
+          "id": "Crl3caGyUJCr",
+          "name": "woman-5916335_1920.jpg",
+          "filePath": "../public/plasmic/agency_website/images/woman59163351920Jpg.jpg"
+        },
+        {
+          "id": "JbBeRv-uKgmU",
+          "name": "marketing-3724797_1920.jpg",
+          "filePath": "../public/plasmic/agency_website/images/marketing37247971920Jpg.jpg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "FXBinrGaAHJW",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "1c4DtgIO5Kzc",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "RaGy9YoyxeH2",
+        "name": "Screen",
+        "projectId": "juVZkpy6GyNsQ7cQcnMtYR",
+        "contextFilePath": "plasmic/agency_website/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.334",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.334/dist/plasmic.schema.json"
+}
